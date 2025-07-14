@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>淡江大學告白版</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+            }
+            h1 {
+                text-align: center;
+                color:#F26363;
+                margin-top: 50px;
+            }
+            h3{
+                color:#F26363;
+            }
+            label{
+                color:#F26363;
+            }
+            #facult {
+                width: 80%;
+                padding: 1px;
+                margin: 10px auto;
+                box-sizing: border-box;
+            }
+            .gender {
+                display: flex;
+                white-space: nowrap;
+            }
+            .anonymous {
+                display: flex;
+                white-space: nowrap;
+            }
+            .CArchive {
+                text-align: center;
+                max-width:230px;
+                margin:100px auto;
+                padding:20px;
+                border: 1px solid lightpink;
+                border-radius: 10px;
+                box-shadow: 0 0 10px #FF4F4F;
+            }
+            .CArchive input {
+                width: 80%;
+                padding: 1px;
+                margin: 10px auto;
+                box-sizing: border-box;
+            }
+            .CArchive button {
+                width: 98%;
+                padding: 2px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .CArchive button.submit {
+                background-color: #FF9F9F; 
+                color: #FEEDF0;
+            }
+            .CArchive button.submit:hover {
+                background-color: #F6BBC4;
+            }
+            body::before{
+                content:"";
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                background-image: url('OBackground.png');
+                background-repeat:no-repeat;
+                background-position: center;
+                background-size: 50%;
+                opacity: 0.2;
+                z-index: -1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h1>淡江大學告白版</h1>
+        </div>
+        <div class="CArchive">
+            <h3>輸入個人檔案</h3>
+            <form action="archive.php" id="WArchive" method="post" onsubmit="return Check(event) ">
+                <div class="anonymous">
+                    <label for="YNanonymous">匿名:</label>
+                    <input type="radio" id="anonymous" name="anonymous" value="1" required>
+                    <label for="SexGirl">是</label>
+                    <input type="radio" id="anonymous" name="anonymous" value="0" required>
+                    <label for="SexBoy">否</label>
+                </div>
+                <div class="gender">
+                    <label for="Sex">性別:</label>
+                    <input type="radio" id="SexGirl" name="Sex" value="0" required>
+                    <label for="SexGirl">女性</label>
+                    <input type="radio" id="SexBoy" name="Sex" value="1" required>
+                    <label for="SexBoy">男性</label>
+                </div>
+                <br/>
+                <label for="Name">姓名:</label>
+                <input type="text" id="Name" name="Name" required>
+                <br/>
+                <label for="facult">學系:</label>
+                <select id="facult" name="facult">
+                    <option value="1">中國文學學系</option>
+                    <option value="2">歷史學系</option>
+                    <option value="3">資訊與圖書館學系</option>
+                    <option value="4">大眾傳播學系</option>
+                    <option value="5">資訊傳播學系</option>
+                    <option value="6">數學學系</option>
+                    <option value="7">物理學系</option>
+                    <option value="8">化學學系</option>
+                    <option value="9">建築學系</option>
+                    <option value="10">土木工程學系</option>
+                    <option value="11">水資源及環境工程學系</option>
+                    <option value="12">機械與機電工程學系</option>
+                    <option value="13">化學工程與材料工程學系</option>
+                    <option value="14">電機工程學系</option>
+                    <option value="15">資訊工程學系</option>
+                    <option value="16">航空太空工程學系</option>
+                    <option value="17">國際企業學系</option>
+                    <option value="18">財務金融學系</option>
+                    <option value="19">風險管理與保險學系</option>
+                    <option value="20">產業經濟學系</option>
+                    <option value="21">經濟學系</option>
+                    <option value="22">企業管理學系</option>
+                    <option value="23">會計學系</option>
+                    <option value="24">統計學系</option>
+                    <option value="25">資訊管理學系</option>
+                    <option value="26">運輸管理學系</option>
+                    <option value="27">公共行政學系</option>
+                    <option value="28">管理科學學系</option>
+                    <option value="29">英文學系</option>
+                    <option value="30">西班牙語文學系</option>
+                    <option value="31">法國語文學系</option>
+                    <option value="32">德國語文學系</option>
+                    <option value="33">日本語文學系</option>
+                    <option value="34">俄國語文學系</option>
+                    <option value="35">教育科技學系</option>
+                    <option value="36">教育與未來設計學系</option>
+                    <option value="37">人工智慧學系</option>
+                    <option value="38">外交與國際關係學系</option>
+                    <option value="39">國際觀光管理學系</option>
+                    <option value="40">全球政治經濟學系</option>
+                </select>
+                <br/>
+                <label for="Email">信箱:</label>
+                <input type="email" id="email" name="email" required>
+                <br/>
+                <button type="submit" class="submit">完成</button>
+            </form>
+        </div>
+    </body>
+</html>

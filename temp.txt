@@ -1,0 +1,27 @@
+<?php if ($_SERVER["REQUEST_METHOD"] == "POST") {   //評論表單接收
+    if (isset($_POST['submit_form1'])){
+        $sql = "SELECT * FROM comment";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $commentID = $result->num_rows+1;  
+
+        $postID = $_POST['PostID'];
+        $studentID = $_SESSION['studentID'];
+        $textContent = $_POST['textContent'];
+        $stmt = $conn->prepare("INSERT INTO comment (CommentContent,StudentID,CommentID,PostID) VALUES (?,?,?,?)");
+        $stmt->bind_param("siii", $textContent,$studentID,$commentID,$postID);
+
+        if ($stmt->execute()) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $stmt->error;
+        }
+
+        $stmt->close();
+    } 
+}
+
+// Close the connection
+$conn->close();
+?>
