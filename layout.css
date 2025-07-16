@@ -174,10 +174,11 @@ h1{
     color: #4682B4;
     border-radius: 5px;
 }
-.select_form{
+.select_form {
     margin: 10px;
-    height: 25px;
-    width: 40px;
+    height: 30px;
+    padding: 5px 15px;        /* 上下5px，左右15px */
+    font-size: 13px;
     border-radius: 5px;
     background-color: rgb(174, 224, 255);
     color: #4682B4;
@@ -482,4 +483,16 @@ body::before{
     background-size: cover;
     opacity: 0.4;
     z-index: -1;
+}
+
+#facult {
+    width: 180px;  /* 你想要的寬度，可調整 */
+    height: 30px;  /* 也可以調整高度，讓外觀更一致 */
+    font-size: 14px;  /* 字體大小，也可以調整 */
+    border-radius: 5px;  /* 邊框圓角 */
+    border: 1px solid #4682B4;
+    padding: 2px 5px;
+    background-color: white;
+    color: #4682B4;
+    cursor: pointer;
 }

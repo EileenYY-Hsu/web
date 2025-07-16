@@ -68,69 +68,69 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <title>淡江大學告白版</title>
+        <title>Tamkang University Confession Version</title>
         <link rel="stylesheet" href="layout.css">
     </head>
 
     <body>
         <div class="Container">
             <div class="Title">
-                <h1>淡江大學告白版</h1>
+                <h1>Tamkang University Confession Version</h1>
             </div>
             <div class="Menu">
-                <p id="Home">首頁</p>
-                <p id="Post">新增貼文</p>
-                <p id="Yourself">個人檔案</p>
-                <p id="logout">登出</p>  
+                <p id="Home">Home</p>
+                <p id="Post">New Post</p>
+                <p id="Yourself">Profile</p>
+                <p id="logout">Logout</p>  
             </div>
             <div class="Words" id="Words">
                 <div id="select" class="select">
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                        <label for="facult">搜尋:</label>
+                        <label for="facult">Search:</label>
                             <select id="facult" name="facult">
-                                <option value="0">全部</option>
-                                <option value="1">中國文學學系</option>
-                                <option value="2">歷史學系</option>
-                                <option value="3">資訊與圖書館學系</option>
-                                <option value="4">大眾傳播學系</option>
-                                <option value="5">資訊傳播學系</option>
-                                <option value="6">數學學系</option>
-                                <option value="7">物理學系</option>
-                                <option value="8">化學學系</option>
-                                <option value="9">建築學系</option>
-                                <option value="10">土木工程學系</option>
-                                <option value="11">水資源及環境工程學系</option>
-                                <option value="12">機械與機電工程學系</option>
-                                <option value="13">化學工程與材料工程學系</option>
-                                <option value="14">電機工程學系</option>
-                                <option value="15">資訊工程學系</option>
-                                <option value="16">航空太空工程學系</option>
-                                <option value="17">國際企業學系</option>
-                                <option value="18">財務金融學系</option>
-                                <option value="19">風險管理與保險學系</option>
-                                <option value="20">產業經濟學系</option>
-                                <option value="21">經濟學系</option>
-                                <option value="22">企業管理學系</option>
-                                <option value="23">會計學系</option>
-                                <option value="24">統計學系</option>
-                                <option value="25">資訊管理學系</option>
-                                <option value="26">運輸管理學系</option>
-                                <option value="27">公共行政學系</option>
-                                <option value="28">管理科學學系</option>
-                                <option value="29">英文學系</option>
-                                <option value="30">西班牙語文學系</option>
-                                <option value="31">法國語文學系</option>
-                                <option value="32">德國語文學系</option>
-                                <option value="33">日本語文學系</option>
-                                <option value="34">俄國語文學系</option>
-                                <option value="35">教育科技學系</option>
-                                <option value="36">教育與未來設計學系</option>
-                                <option value="37">人工智慧學系</option>
-                                <option value="38">外交與國際關係學系</option>
-                                <option value="39">國際觀光管理學系</option>
-                                <option value="40">全球政治經濟學系</option>
+                                <option value="0">All</option>
+                                <option value="1">Department of Chinese Literature</option>
+                                <option value="2">Department of History</option>
+                                <option value="3">Department of Information and Library Science</option>
+                                <option value="4">Department of Mass Communication</option>
+                                <option value="5">Department of Information and Communication</option>
+                                <option value="6">Department of Mathematics</option>
+                                <option value="7">Department of Physics</option>
+                                <option value="8">Department of Chemistry</option>
+                                <option value="9">Department of Architecture</option>
+                                <option value="10">Department of Civil Engineering</option>
+                                <option value="11">Department of Water Resources and Environmental Engineering</option>
+                                <option value="12">Department of Mechanical and Electro-Mechanical Engineering</option>
+                                <option value="13">Department of Chemical and Materials Engineering</option>
+                                <option value="14">Department of Electrical and Computer Engineering</option>
+                                <option value="15">Department of Computer Science and Information Engineering</option>
+                                <option value="16">Department of Aerospace Engineering</option>
+                                <option value="17">Department of International Business</option>
+                                <option value="18">Department of Banking and Finance</option>
+                                <option value="19">Department of Risk Management and Insurance</option>
+                                <option value="20">Department of Industrial Economics</option>
+                                <option value="21">Department of Economics</option>
+                                <option value="22">Department of Business Administration</option>
+                                <option value="23">Department of Accounting</option>
+                                <option value="24">Department of Statistics</option>
+                                <option value="25">Department of Information Management</option>
+                                <option value="26">Department of Transportation Management</option>
+                                <option value="27">Department of Public Administration</option>
+                                <option value="28">Department of Management Sciences</option>
+                                <option value="29">Department of English</option>
+                                <option value="30">Department of Spanish</option>
+                                <option value="31">Department of French</option>
+                                <option value="32">Department of German</option>
+                                <option value="33">Department of Japanese</option>
+                                <option value="34">Department of Russian</option>
+                                <option value="35">Department of Educational Technology</option>
+                                <option value="36">Education and Futures Design</option>
+                                <option value="37">Artificial Intelligence</option>
+                                <option value="38">Department of Diplomacy and International Relations</option>
+                                <option value="39">Department of International Tourism Management</option>
+                                <option value="40">Department of Global Politics and Economics</option>
                             </select>
-                            <button type="submit" class="select_form" name="select_button">查詢</button>
+                            <button type="submit" class="select_form" name="select_button">Search</button>
                     </form>
                 </div>
                 <?php
@@ -150,8 +150,8 @@
                     $stmt->execute();
 
                     if ($stmt) {
-                        $result = $stmt->get_result(); // 获取结果集
-                        while ($post_print = mysqli_fetch_assoc($result)) { // 使用 mysqli_fetch_assoc() 获取关联数组
+                        $result = $stmt->get_result(); // 獲取结果集
+                        while ($post_print = mysqli_fetch_assoc($result)) { // 使用 mysqli_fetch_assoc() 獲取關聯數組
                             $postFound = true;
                             $post_printID = $post_print['PostID'];
                             ?>
@@ -189,7 +189,7 @@
                                                     <?php if ($comment['StudentID'] == $_SESSION['studentID']): ?>
                                                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                                                             <input type="hidden" name="commentID" value="<?php echo $comment['CommentID']; ?>">
-                                                            <button id="delete_comment" type="submit" name="delete_comment">刪除</button>
+                                                            <button id="delete_comment" type="submit" name="delete_comment">Delete</button>
                                                         </form>
                                                     <?php endif; ?>
                                                 </div> 
@@ -202,10 +202,10 @@
                                     <?php endif; ?>
                                 <div id="message_form" class="message_form">
                                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-                                        <label id="PostComment" for="textContent">請輸入評論:</label><br>
+                                        <label id="PostComment" for="textContent">Please enter a comment:</label><br>
                                         <textarea id="textContent" name="textContent" rows="10" cols="50"></textarea><br>
                                         <input type="hidden" name="postID" value="<?php echo $post_printID; ?>">
-                                        <input id="PostBtn" type="submit" value="發布" name="message_button">
+                                        <input id="PostBtn" type="submit" value="Post" name="message_button">
                                     </form>    
                                 </div>
                                 <button id="closeButton" class="fas fa-times"></button>
@@ -283,9 +283,9 @@
                     $genderID = $profile['Gender'];
                     $introduce = $profile['Introduce'];
                     if($genderID == '1'){
-                        $gender = "男生" ;
+                        $gender = "Male" ;
                     }else if($genderID == '0'){
-                        $gender = "女生" ;
+                        $gender = "Female" ;
                     }else{
                         $gender = "" ;
                     }
@@ -298,9 +298,9 @@
                         <p><?php echo nl2br(htmlspecialchars($studentname)); ?></p>
                     </div>
                 </div>
-                    <button id="Filebtn" onclick="goarchive()">編輯個人檔案</button>
-                    <p>性別 : <?php echo nl2br(htmlspecialchars($gender)); ?></p>
-                    <p>科系 : <?php echo nl2br(htmlspecialchars($facultname)); ?></p>
+                    <button id="Filebtn" onclick="goarchive()">Edit Profile</button>
+                    <p>Gender : <?php echo nl2br(htmlspecialchars($gender)); ?></p>
+                    <p>Department : <?php echo nl2br(htmlspecialchars($facultname)); ?></p>
                     <p>Email : <?php echo nl2br(htmlspecialchars($email)); ?></p>
                     <!--<p>自我介紹 : <?php echo nl2br(htmlspecialchars($introduce)); ?></p>-->
             </div>
@@ -308,12 +308,12 @@
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <div id="PopupContainer">    
                 <div id="PopupUp">
-                    <button type="button" id="CloseSmallWindows" onclick="ClosePopup()">關閉</button>
-                    <button type="button" id="Next">下一步</button>
+                    <button type="button" id="CloseSmallWindows" onclick="ClosePopup()">Close</button>
+                    <button type="button" id="Next">Next</button>
                 </div>
                 <div id="PopupLeft">
                     <input type="file" id="fileInput" name="fileInput" accept="image/*">
-                    <button type="button" id="customButton">選擇圖片</button>
+                    <button type="button" id="customButton">Select Image</button>
                     <div id="previewContainer">
                         <img id="previewImage" src="#" alt="">
                     </div>
@@ -325,7 +325,7 @@
             <div id="PopupContainerTwo">
                 <div id="PopupUpTwo">
                     <button type="button" id="BackToOneSmallWindows" onclick="ClosePopupTwo()">上一步</button>
-                    <button type="submit" id="Finish">發布</button>
+                    <button type="submit" id="Finish">Post</button>
                 </div>
                 <div id="PopupDownTwo">
                     

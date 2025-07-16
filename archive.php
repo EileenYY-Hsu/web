@@ -31,7 +31,7 @@
 	
 	
 	if ($result->num_rows > 0) {
-		echo "<script>alert('個人檔案修改成功');</script>";
+		echo "<script>alert('Profile updated successfully.');</script>";
         echo "<script> window.location.href = 'layout.php';</script>";
 	}else{
 		echo "<script>alert('ERROR!!! ');</script>";

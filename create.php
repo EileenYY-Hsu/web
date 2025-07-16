@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>淡江大學告白版</title>
+    <title>Tamkang University Confession Version</title>
     <link rel="stylesheet" href="create.css">
 </head>
 
 <body>
     <div>
-        <h1>淡江大學告白版</h1>
+        <h1>Tamkang University Confession Version</h1>
     </div>
     <div class="CreateAccount">
-        <h3>建立新帳號</h3>
+        <h3>Create New Account</h3>
         <form action="create.php" id="CreateAccount" method="post">
-            <label for="CAccountID">學號:</label>
+            <label for="CAccountID">Student ID:</label>
             <input type="text" id="CAccountID" name="CAccountID" required>
-            <label for="CPassword">密碼:</label>
+            <label for="CPassword">Password:</label>
             <input type="password" id="CPassword" name="CPassword" required>
-            <button type="submit" class="submit">建立</button>
+            <button type="submit" class="submit">Create</button>
         </form>
         <div class="message" id="message"></div>
-        <button type="button" class="button"  onclick="LoginAccount()">返回登入頁面</button>
+        <button type="button" class="button"  onclick="LoginAccount()">Back to Login Page</button>
     </div>
 </body>
 	<script>function LoginAccount() {
@@ -52,7 +52,7 @@
         $result = $stmt->get_result();
 
         if ($result->num_rows > 0) {
-            echo "<script>alert('此學號已註冊帳號');</script>";
+            echo "<script>alert('This student ID has already been used to register an account.');</script>";
             echo "<script>window.location.href = 'create.php';</script>";
         }
 
@@ -68,10 +68,10 @@
         $result = $stmt->get_result();
 
         if ($result->num_rows > 0) {
-            echo "<script>alert('建立成功');</script>";
+            echo "<script>alert('Creation successful.');</script>";
             echo "<script>window.location.href = 'login.php';</script>";
         } else {
-            echo "<script>alert('建立失敗');</script>";
+            echo "<script>alert('Creation failed.');</script>";
             echo "<script>window.location.href = 'create.php';</script>";
         }
     }
