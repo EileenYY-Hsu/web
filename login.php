@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit();
         }
     }else{
-        echo "<script>alert('帳號或密碼錯誤');</script>";
+        echo "<script>alert('The username or password you entered is incorrect.');</script>";
         echo "<script> window.location.href = 'login.php';</script>";
         exit();
     }
@@ -48,24 +48,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>淡江大學告白版</title>
+    <title>Tamkang University Confession Version</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div>
-        <h1>淡江大學告白版</h1>
+        <h1>Tamkang University Confession Version</h1>
     </div>
     <div class="LoginAccount">
-        <h3>登入帳號</h3>
+        <h3>Login Account</h3>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" id="LoginAccount" method="post">
-            <label for="LAccountID">學號:</label>
+            <label for="LAccountID">Student ID:</label>
             <input type="text" id="LAccountID" name="LAccountID" required>
-            <label for="LPassword">密碼:</label>
+            <label for="LPassword">Password:</label>
             <input type="password" id="LPassword" name="LPassword" required>
-            <button type="submit">登入</button>
+            <button type="submit">Login</button>
         </form>
         <div class="message" id="message"></div>
-        <button type="button" class="button" onclick="CreateAccount()">創建新帳號</button>
+        <button type="button" class="button" onclick="CreateAccount()">Create New Account</button>
     </div>
 </body>
 	<script>function CreateAccount() {
