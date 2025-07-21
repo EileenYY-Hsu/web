@@ -8,7 +8,10 @@ An interactive platform that enables users to log in, log out, create posts, sub
 - Database: MySQL (via phpMyAdmin / XAMPP)
 - Development Environment: XAMPP (Apache + MySQL)
 - Version Control: Git & GitHub
-
+## Screenshots
+![Screenshot](images/creat_screenshot.png)
+![Screenshot](images/post_screenshot.png)
+![Screenshot](images/comment_screenshot.png)
 ## Key Features
 ## Project Motivation
-![Creat](images/creat_screenshot.png)
+
