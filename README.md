@@ -20,5 +20,6 @@ An interactive platform that enables users to log in, log out, create posts, sub
 - Posting anonymous messages
 - Commenting on posts
 - Image upload support (optional)
-## Project Structure
+## Reflection
+Through this project, I enhanced my understanding of server-side scripting and database interaction, while also gaining practical experience in user interface structuring and error handling. This experience deepened my appreciation for the importance of data flow and user experience in web development.
 ## Project Motivation
