@@ -9,6 +9,7 @@ An interactive platform that enables users to log in, log out, create posts, sub
 - Development Environment: XAMPP (Apache + MySQL)
 - Version Control: Git & GitHub
 ## Screenshots
+- Create a user account
 ![Screenshot](images/creat_screenshot.png)
 ![Screenshot](images/post_screenshot.png)
 ![Screenshot](images/comment_screenshot.png)
