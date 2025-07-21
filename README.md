@@ -1,5 +1,5 @@
 # Tamkang University Confession Board System – A Web Forum Developed with PHP & MySQL.
-An interactive platform that enables users to log in, log out, create posts, submit comments, and perform queries, among other core functionalities.
+I developed a platform using HTML, PHP, and MySQL for students and faculty at Tamkang University to interact more freely. Unlike public forums, this system ensures privacy and restricts access to outsiders. Whether you want to express appreciation for a favorite professor or share frustrations about noisy classmates, you can do so without fear of judgment. Our anonymous posting feature allows everyone to speak their mind openly and safely—let’s create a space where honest conversations can thrive!
 ## Project Motivation
 The development of this project reflects my strong interest in web application development and database-driven platforms. By building a forum system with login, posting, and commenting functionalities, my goal was to deepen my understanding of full-stack web development using PHP and MySQL.
 
