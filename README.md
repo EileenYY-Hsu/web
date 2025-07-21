@@ -11,4 +11,4 @@ An interactive platform that enables users to log in, log out, create posts, sub
 
 ## Key Features
 ## Project Motivation
-![Login Page](images/create_screenshot.png)
+![Create Page](images/create_screenshot.png)
