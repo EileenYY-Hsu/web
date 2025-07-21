@@ -27,7 +27,7 @@ The development of this project reflects my strong interest in web application d
 
 This project also demonstrates my enthusiasm for designing user-centered interfaces and implementing backend logic. I plan to include it in my portfolio for applying to graduate programs in Computer Science, particularly in the areas of software engineering, system development, and applied data processing.
 ## Contact
-Eileen (Hsu, Ying-Ying)
+Name: Eileen (Hsu, Ying-Ying)
 
 Email: xuyy04229@gmail.com
 
