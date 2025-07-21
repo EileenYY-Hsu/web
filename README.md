@@ -3,15 +3,17 @@ An interactive platform that enables users to log in, log out, create posts, sub
 ## Preview Screen
 ![Screenshot](images/home_screenshot.png)
 ## Built With
-- Frontend: HTML, CSS, JavaScript
-- Backend: PHP
-- Database: MySQL (via phpMyAdmin / XAMPP)
-- Development Environment: XAMPP (Apache + MySQL)
-- Version Control: Git & GitHub
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL (via phpMyAdmin / XAMPP)
+- **Development Environment**: XAMPP (Apache + MySQL)
+- **Version Control**: Git & GitHub
 ## Screenshots
 - Create a user account
 ![Screenshot](images/creat_screenshot.png)
+- Create and publish a post
 ![Screenshot](images/post_screenshot.png)
+- Post a comment
 ![Screenshot](images/comment_screenshot.png)
 ## Key Features
 ## Project Motivation
