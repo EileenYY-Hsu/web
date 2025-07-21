@@ -21,6 +21,7 @@ This project also demonstrates my enthusiasm for designing user-centered interfa
 ![Screenshot](images/comment_screenshot.png)
 ## Key Features
 - User registration and login/logout system
+  ![Screenshot](images/LoginNavigate_screenshot.png)
 - Posting anonymous messages
 - Commenting on posts
 - Image upload support (optional)
