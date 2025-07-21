@@ -16,5 +16,9 @@ An interactive platform that enables users to log in, log out, create posts, sub
 - Post a comment
 ![Screenshot](images/comment_screenshot.png)
 ## Key Features
+- User registration and login/logout system
+- Posting anonymous messages
+- Commenting on posts
+- Image upload support (optional)
+## Project Structure
 ## Project Motivation
-
