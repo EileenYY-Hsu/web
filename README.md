@@ -23,3 +23,10 @@ An interactive platform that enables users to log in, log out, create posts, sub
 ## Reflection
 Through this project, I enhanced my understanding of server-side scripting and database interaction, while also gaining practical experience in user interface structuring and error handling. This experience deepened my appreciation for the importance of data flow and user experience in web development.
 ## Project Motivation
+The development of this project reflects my strong interest in web application development and database-driven platforms. By building a forum system with login, posting, and commenting functionalities, my goal was to deepen my understanding of full-stack web development using PHP and MySQL.
+
+This project also demonstrates my enthusiasm for designing user-centered interfaces and implementing backend logic. I plan to include it in my portfolio for applying to graduate programs in Computer Science, particularly in the areas of software engineering, system development, and applied data processing.
+## Contact
+Eileen (Hsu, Ying-Ying)
+Email: xuyy04229@gmail.com
+GitHub: https://github.com/EileenYY-Hsu
